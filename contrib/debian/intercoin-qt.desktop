@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=InterCoin
+Comment=Connect to the InterCoin P2P Network
+Exec=intercoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/intercoin;
+Categories=Office;Finance;
+Name[en_US]=intercoin-qt.desktop

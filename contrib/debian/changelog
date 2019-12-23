@@ -1,0 +1,5 @@
+intercoin (1.0.1-trusty4) trusty; urgency=medium
+
+  * Initial packaging.
+
+ -- InterCoin (intercoin) <intercoin@gmail.com>  Fri, 05 May 2017 13:28:00 -0400
