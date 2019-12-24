@@ -265,11 +265,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha256.cpp \
   crypto/sha256.h \
   crypto/sha512.cpp \
-  crypto/sha512.h \
-  yespower/yespower.h \
-  yespower/yespower-opt.c \
-  yespower/sha256.h \
-  yespower/sha256.c
+  crypto/sha512.h
 
 if EXPERIMENTAL_ASM
 crypto_libbitcoin_crypto_a_SOURCES += crypto/sha256_sse4.cpp
@@ -309,7 +305,11 @@ libbitcoin_consensus_a_SOURCES = \
   uint256.h \
   utilstrencodings.cpp \
   utilstrencodings.h \
-  version.h
+  version.h \
+  yespower/yespower.h \
+  yespower/yespower-opt.c \
+  yespower/sha256.h \
+  yespower/sha256.c
 
 # common: shared between intercoind, and bitcoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
