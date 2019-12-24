@@ -266,7 +266,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha256.h \
   crypto/sha512.cpp \
   crypto/sha512.h \
-  primitives/block.cpp \
+  primitives/block.h \
   yespower/yespower.h \
   yespower/yespower-opt.c \
   yespower/sha256.h \
@@ -291,7 +291,7 @@ libbitcoin_consensus_a_SOURCES = \
   hash.cpp \
   hash.h \
   prevector.h \
-  primitives/block.h \
+  primitives/block.cpp \
   primitives/transaction.cpp \
   primitives/transaction.h \
   pubkey.cpp \
